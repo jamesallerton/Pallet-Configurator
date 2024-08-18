@@ -9,7 +9,7 @@ namespace PalletConfig.Web.Models
     public class PalletModel
     {
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(50,1000, ErrorMessage = "Pallet size need to be between {1} and {2}")]
+        [Range(50,2000, ErrorMessage = "Pallet size need to be between {1} and {2}")]
         public int PalletSizeX { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
@@ -17,19 +17,19 @@ namespace PalletConfig.Web.Models
         public int PalletSizeY { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(50, 1000, ErrorMessage = "Pallet size need to be between {1} and {2}")]
+        [Range(50, 2000, ErrorMessage = "Pallet size need to be between {1} and {2}")]
         public int PalletSizeZ { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(1, 1000, ErrorMessage = "Box size need to be between {1} and {2}")]
+        [Range(1, 2000, ErrorMessage = "Box size need to be between {1} and {2}")]
         public int BoxSizeX { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(1, 1000, ErrorMessage = "Box size need to be between {1} and {2}")]
+        [Range(1, 2000, ErrorMessage = "Box size need to be between {1} and {2}")]
         public int BoxSizeY { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(1, 1000, ErrorMessage = "Box size need to be between {1} and {2}")]
+        [Range(1, 2000, ErrorMessage = "Box size need to be between {1} and {2}")]
         public int BoxSizeZ { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
@@ -37,7 +37,7 @@ namespace PalletConfig.Web.Models
         public double BoxWeight { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
-        [Range(20, 1000, ErrorMessage = "Pallet height need to be between {1} and {2}")]
+        [Range(20, 2000, ErrorMessage = "Pallet height need to be between {1} and {2}")]
         public int PalletHeight { get; set; }
 
         [Required(ErrorMessage = "Field need to be filled in")]
